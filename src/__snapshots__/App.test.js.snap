@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should take a snapshot 1`] = `
+<DocumentFragment>
+  <nav
+    class="navbar navbar-expand-lg navbar-light bg-light"
+  >
+    <div
+      class="container-fluid"
+    >
+      <a
+        class="navbar-brand"
+        href="/"
+      >
+        My Todos List
+      </a>
+      <button
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        class="navbar-toggler"
+        data-bs-target="#navbarSupportedContent"
+        data-bs-toggle="collapse"
+        type="button"
+      >
+        <span
+          class="navbar-toggler-icon"
+        />
+      </button>
+      <div
+        class="collapse navbar-collapse"
+        id="navbarSupportedContent"
+      >
+        <ul
+          class="navbar-nav me-auto mb-2 mb-lg-0"
+        >
+          <li
+            class="nav-item"
+          >
+            <a
+              aria-current="page"
+              class="nav-link active"
+              href="/"
+            >
+              Home
+            </a>
+          </li>
+          <li
+            class="nav-item"
+          >
+            <a
+              class="nav-link"
+              href="/about"
+            >
+              About
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div
+    class="container my-3"
+  >
+    <h3>
+      Add a Todo
+    </h3>
+    <form>
+      <div
+        class="mb-3"
+      >
+        <label
+          class="form-label"
+          for="title"
+        >
+          Todo Title
+        </label>
+        <input
+          aria-describedby="emailHelp"
+          class="form-control"
+          id="title"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="mb-3"
+      >
+        <label
+          class="form-label"
+          for="desc"
+        >
+          Todo Description
+        </label>
+        <input
+          class="form-control"
+          id="desc"
+          type="text"
+          value=""
+        />
+      </div>
+      <button
+        class="btn btn-sm btn-success"
+        type="submit"
+      >
+        Add Todo
+      </button>
+    </form>
+  </div>
+  <div
+    class="container"
+    style="min-height: 70vh; margin: 40px auto;"
+  >
+    <h3
+      class="my-3"
+    >
+      Todos List
+    </h3>
+    No Todos to display
+  </div>
+  <footer
+    class="bg-dark text-light py-3"
+  >
+    <p
+      class="text-center"
+    >
+      Copyright © MyTodosList.com
+    </p>
+  </footer>
+</DocumentFragment>
+`;
