@@ -8,7 +8,7 @@ pipeline {
     stage('Git') {
       steps {
         git 'https://github.com/Arnav-Bansal/todo'
-        echo "Inside git"
+        sh 'java -version'
       }
     }
      
