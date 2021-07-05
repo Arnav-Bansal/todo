@@ -7,7 +7,7 @@ pipeline {
         
     stage('Git') {
       steps {
-        git 'https://github.com/Arnav-Bansal/todo.git'
+        sh 'git@github.com:Arnav-Bansal/todo.git'
       }
     }
      
