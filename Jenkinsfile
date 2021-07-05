@@ -7,8 +7,8 @@ pipeline {
         
     stage('Git') {
       steps {
-        git 'https://github.com/Arnav-Bansal/todo'
         sh 'java -version'
+        git 'https://github.com/Arnav-Bansal/todo'
       }
     }
      
