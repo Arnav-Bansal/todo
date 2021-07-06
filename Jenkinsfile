@@ -15,6 +15,7 @@ pipeline {
       steps {
         //bat 'sudo npm clean install'
        // bat 'sudo npm run build'
+        bat 'node -v'
       }
     }
   }
