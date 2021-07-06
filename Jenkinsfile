@@ -5,17 +5,17 @@ pipeline {
     
   stages {
         
-    stage('Git') {
+/*    stage('Git') {
       steps {
         sh 'git@github.com:Arnav-Bansal/todo.git'
       }
-    }
+    }*/
      
     stage('Build') {
       steps {
-        //bat 'sudo npm clean install'
-       // bat 'sudo npm run build'
-        bat 'node -v'
+       bat 'sudo npm clean install'
+       bat 'sudo npm run build'
+      
       }
     }
   }
