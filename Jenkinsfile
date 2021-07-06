@@ -13,8 +13,8 @@ pipeline {
      
     stage('Build') {
       steps {
-        sh 'sudo npm clean install'
-         sh 'sudo npm run build'
+        bat 'sudo npm clean install'
+        bat 'sudo npm run build'
       }
     }
   }
