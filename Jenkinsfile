@@ -8,7 +8,7 @@ pipeline {
      
     stage('Build') {
       steps {
-       bat 'npm clean install'
+       bat 'npm clean-install'
        bat 'npm run build'
       
       }
